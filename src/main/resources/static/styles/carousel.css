@@ -1,0 +1,35 @@
+/*
+==================================================
+  1. FIJAR ALTURA DEL CARRUSEL Y DE LOS ÍTEMS
+==================================================
+*/
+
+/* Contenedor interno del carrusel */
+#carouselExampleAutoplaying .carousel-inner {
+    height: 450px !important; /* Altura Fija para que no salte el contenido */
+    overflow: hidden !important; 
+}
+
+/* Base de los ítems: Establece la altura de los contenedores de imagen */
+#carouselExampleAutoplaying .carousel-item {
+    height: 450px !important; 
+    background-size: cover !important;        /* CLAVE: Ajusta y recorta la imagen sin distorsión */
+    background-position: center center !important; /* Centra la imagen de fondo */
+    background-repeat: no-repeat !important;   /* Evita la repetición */
+}
+
+/*
+==================================================
+  2. ASIGNAR LAS IMÁGENES DE FONDO INDIVIDUALES
+==================================================
+*/
+
+/* Asegúrate de que la ruta 'img/' es correcta */
+.slide-1 { background-image: url("../img/img-1.jpg") !important; }
+.slide-2 { background-image: url("../img/img-2.jpg") !important; }
+.slide-3 { background-image: url("../img/img-3.jpg") !important; }
+.slide-4 { background-image: url("../img/img-4.jpg") !important; }
+.slide-5 { background-image: url("../img/img-5.jpg") !important; }
+.slide-6 { background-image: url("../img/img-6.jpg") !important; }
+.slide-7 { background-image: url("../img/img-7.jpg") !important; }
+.slide-8 { background-image: url("../img/img-8.jpg") !important; }
